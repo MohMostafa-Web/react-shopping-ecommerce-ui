@@ -84,7 +84,9 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo><Link to="/">mo.</Link></Logo>
+          <Logo>
+            <Link to="/">mo.</Link>
+          </Logo>
         </Center>
         <Right>
           <MenuItem>
@@ -94,11 +96,11 @@ const Navbar = () => {
             <Link to="/login">sign in</Link>
           </MenuItem>
           <MenuItem>
-            <Badge badgeContent={2} color="primary">
-              <Link to="/cart">
+            <Link to="/cart">
+              <Badge badgeContent={2} color="primary">
                 <ShoppingCartOutlined />
-              </Link>
-            </Badge>
+              </Badge>
+            </Link>
           </MenuItem>
         </Right>
       </Wrapper>
