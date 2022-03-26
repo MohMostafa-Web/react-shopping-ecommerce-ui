@@ -55,7 +55,7 @@ export const popularProducts = [
   },
   {
     id: 4,
-    img: "https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+    img: "https://www.vintageindustries.nl/download_front/ogufmv1546/_overview_large_/2101_Welder_jacket_Night_sky.png",
   },
   {
     id: 5,
